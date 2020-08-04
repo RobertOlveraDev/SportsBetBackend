@@ -1,16 +1,14 @@
+
 {
-  "name": "SportBet",
-  "version": "1.0.0",
-  "description": "SportBet Backed app",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
+  "name": "sportsbet-mobile-backed",
+  "version": "0.1.0",
+  "description": "A basic Node server for Azure App Service Mobile Apps",
+  "main": "app.js",
+  "private": true,
+  "author": "robolverap@gmail.com",
   "license": "MIT",
   "dependencies": {
-    "azure-mobile-apps": "^4.0.2",
-    "express": "^4.17.1"
+      "azure-mobile-apps": "^2.0.0",
+      "express": "^4.13.3"
   }
 }
