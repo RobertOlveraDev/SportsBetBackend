@@ -8,6 +8,7 @@ mobileApp.tables.add('TicketBet');
 mobileApp.tables.add('Match'); 
 mobileApp.tables.add('Team'); 
 mobileApp.tables.add('Week');
+mobileApp.tables.add('Bet');
 
 app.use(mobileApp);
 app.listen(process.env.PORT || 3000);
